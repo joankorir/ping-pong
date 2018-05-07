@@ -17,9 +17,10 @@ body{
 
 .header{
       background-image: url('../img/ping.png');
-      background-repeat:no-repeat;
+      background-repeat: no-repeat;
+      background-position: right;
       text-align: center;
-      padding:30px;
+      padding:70px;
 
 
   }
@@ -27,6 +28,7 @@ body{
 .container{
    background-image: url('../img/pingpong.jpg');
    padding:90px;
+
 
 
 
@@ -53,8 +55,9 @@ body{
 }
 .images{
     float: none;
-    width:70px;
-
+    width:30px;
+    border-radius: 20px;
+    opacity: 20px;
 }
 #method{
     color:red;
