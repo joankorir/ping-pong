@@ -1,22 +1,66 @@
-.jumbotron{
-      text-align: center;
-      font-size: 50px;
-      padding: 20px;
-      background-color:yellow;
-      background-repeat: no-repeat;
-
-    }
-  .container{
-     background-col;
-  }
-  .panel-{
-    color: light blue;
-
-  }
-  .ry.{
-    background-color:grey;
-  }
-.class1{
-    background-color: black;
+body{
+  /* background-image: url('../img/bg.png'); */
+  background-repeat: repeat;
+  font-family: monospace;
 
 }
+ .jumbotron{
+   background-image:url('../img/pp.jpeg');
+   background-repeat: no-repeat;
+   text-align: center;
+   height:160px;
+   color:blue;
+
+
+ }
+
+
+.header{
+      background-image: url('../img/ping.png');
+      background-repeat:no-repeat;
+      text-align: center;
+      padding:30px;
+
+
+  }
+
+.container{
+   background-image: url('../img/pingpong.jpg');
+   padding:90px;
+
+
+
+}
+
+.panel_{
+    font-style: italic;
+    font-family: monospace;
+    color:tomato;
+
+}
+.word{
+    background-color:purple;
+    padding: 50px;
+    font-size:11px;
+
+
+}
+
+.text{
+  text-shadow: 0 0 3px #FF0000;
+  text-align: justify;
+  font-size: 35px;
+
+}
+.images{
+    float: none;
+    width:70px;
+
+}
+#method{
+    color:blue;
+    font-style:oblique;
+    font-size:20px;
+
+
+  }

@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
- <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.3.1.js"></script>
-  <script src="js/scripts.js"></script>
   <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
-    <title>PING PONG PROJECT</title>
+        <title>PING PONG PROJECT</title>
   </head>
      <body>
          <div class="container">
            <div class ="jumbotron">
                <h3><strong> Ping-Pong</strong></h3>
            </div>
-                  <div class="row">
+                  <div class="row header">
                       <div class="col-md-8 col-md-offset-2">
                          <div class="row">
-                             <div class ="col-md-4 ry.">
+                             <div class ="col-md-6 word">
                                     <h3><em>About Ping Pong</em></h3>
                                     <h5><strong>Created  by:</strong></h3>
                                      <h5><em>Joan Korir</em></h5>
-                                <div class="panel-">
+                            <div class="panel_">
                                       <h4>GitHub Username/URL.</h4>
-                                        <a href ="https://github.com/joankorir/ping-pong.git">https://github.com/joankorir/ping-pong.git </a>
-
+                                      <a href ="https://github.com/joankorir/ping-pong.git">https://github.com/joankorir/ping-pong.git </a>
                                     <h4>Level 2 Test for.</h4>
                                 </div>
-                                    <h5>Jevs</h5>
-                         </div>
-                     <div class="col-md-6">
-                            <p><strong>Let's Play!</strong></p>
+                                    <h5><b>Jevs<b></h5>
+                        </div>
+                      <div class="col-md-6">
+                        <div class="text">
+                          <p><strong>Let's Play!</strong></p>
+                        </div>
+
+                      <div class="images">
+                            <img src="img/big.jpeg">
+                          </div>
+                          <div id="method">
                             <h5>Rules<h5>
                             <p>Ping Pong will count up to your number from 1 with the following exceptions</p>
                                 <ol>
@@ -37,51 +41,30 @@
                                <li>Numbers divisible by 5 become "pong"</li>
                                <li>Numbers divisible by 3 and 5 become "ping-pong"</li>
                             </ol>
-                            <form>
-                              <strong>Enter your number here: <input type="text" name="Enter your number here" value=""></strong>
-                                  <input type="text" name="Ping Pong!" value="Ping Pong">
-                            </form>
-                               </div>
+
+                          <form id ="divisibleNumber">
+                              <label for="no"><strong>Enter your number here:</strong></label>
+                               <input type="text" name="Enter your number here" value="" id="no"/>
+                                         <button type="submit" name="button"> PingPong!</button>
+                                <ul id ="result">
+                              </ul>
+                             </div>
+                           </form>
+                         </div>
+
                         </div>
                         </div>
                       </div>
+                    </div>
+                  </div>
 
 
 
 
 
+                  <script src="js/jquery-3.3.1.js"></script>
+                  <script src="js/scripts.js"></script>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                 </div>
-
-
-
-
-
-
-
-
-  </body>
-</html>
+                  </body>
+                </html>
