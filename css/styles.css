@@ -43,11 +43,10 @@ body{
     padding: 50px;
     font-size:11px;
 
-
 }
 
 .text{
-  text-shadow: 0 0 3px #FF0000;
+  text-shadow: 0 0 6px #FF0000;
   text-align: justify;
   font-size: 35px;
 
@@ -58,9 +57,9 @@ body{
 
 }
 #method{
-    color:blue;
-    font-style:oblique;
-    font-size:20px;
+    color:red;
+    font-style:normal;
+    font-size:30px;
 
 
   }

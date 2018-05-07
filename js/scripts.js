@@ -18,8 +18,8 @@
 //user interface logic
   $(document).ready(function(){
    $("form#divisibleNumber").submit(function(event){
-      number =parseInt($("#no").val());
-       $("#result").text("");
+       number =parseInt($("#no").val());
+       ("#result").text("result");
          condition();
          $("#result").show();
          $("#no").val('');
