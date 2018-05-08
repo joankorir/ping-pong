@@ -1,18 +1,20 @@
     //business interface logic
-    Var number;
+
+
       function condition (){
-       for (var count =1; count <=number;count ++){
-          if (count % 15===0) {
-            $("#result").append("<li>") + "ping-pong"  + "</li>)";
+       for(var count =1; count <= number;count ++){
+          if ((count %3 ===0) & (count % 5 ===0)){
+            $("#result").append("<li>" + "pingpong"  + "</li>");
           } else if (count %3===0){
-            $("#result").append("<li>") + "ping" + "</li>");
+            $("#result").append("<li>" + "ping" + "</li>");
           } else if (count % 5===0){
-            $("#result").append("<li") + "pong" + "</li>");
+            $("#result").append("<li"+ "pong" + "</li>");
           } else {
-            $("#result").append("<li>") + count.toString() + "</li>");          }
+            $("#result").append("<li>" + count.toString() + "</li>");
+          }
         }
      }
-   }
+
 
 //user interface logic
   $(document).ready(function(){
